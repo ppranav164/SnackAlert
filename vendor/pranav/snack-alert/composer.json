@@ -1,0 +1,24 @@
+{
+    "name": "pranav/snack-alert",
+    "description": "simple floating alert for livewire",
+    "autoload": {
+        "psr-4": {
+            "Pranav\\SnackAlert\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pranav P",
+            "email": "ppranav164@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Pranav\\SnackAlert\\SnackAlertServiceProvider"
+            ]
+        }
+    }
+}
