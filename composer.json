@@ -1,5 +1,5 @@
 {
-    "name": "pranav/snack-alert",
+    "name": "ppranav/snack-alert",
     "description": "simple floating alert for livewire",
     "autoload": {
         "psr-4": {
