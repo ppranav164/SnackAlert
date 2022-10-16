@@ -1,6 +1,7 @@
 {
     "name": "ppranav/snack-alert",
     "description": "simple floating alert for livewire",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Pranav\\SnackAlert\\": "src/"
