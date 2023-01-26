@@ -1,6 +1,6 @@
 {
     "name": "ppranav/snack-alert",
-    "description": "simple floating alert for livewire",
+    "description": "Snack Alert is a simple, lightweight package that allows you to easily display alerts on your Laravel Livewire powered application. With just a line of code, you can quickly and easily add alert notifications to your livewire components.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -13,7 +13,7 @@
             "email": "ppranav164@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel":{
