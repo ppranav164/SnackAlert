@@ -10,7 +10,7 @@ class SnackAlert extends SnackAlertAssets
 
 
     /**
-     * Show alert
+     * Set Title and Message
      *
      * @param  string  $title
      * @param  string  $message
@@ -37,7 +37,12 @@ class SnackAlert extends SnackAlertAssets
     }
 
 
-    public function show($context)
+    /**
+     * Show alert
+     * @param  \Livewire\Component $context
+     * @return void
+     */
+    public function show(\Livewire\Component $context)
     {
         $context->dispatchBrowserEvent('notifyUsers', $this->snack_alerts);
     }
