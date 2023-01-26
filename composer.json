@@ -13,13 +13,16 @@
             "email": "ppranav164@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": "^7.2.5|^8.0"
+    },
     "extra": {
         "laravel":{
             "providers":[
                 "Pranav\\SnackAlert\\SnackAlertServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
