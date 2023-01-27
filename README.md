@@ -4,6 +4,12 @@
 Snack Alert is a simple, lightweight package that allows you to easily display alerts on your Laravel Livewire powered application. With just a line of code, you can quickly and easily add alert notifications to your livewire components.
 
 
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/ppranav164/SnackAlert/main/screenshot.gif)
+
+
 # Getting Started
 
 
