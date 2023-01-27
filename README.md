@@ -27,6 +27,12 @@ Add front-end component in a template
 <x-snack-alert />
 ```
 
+Add styles component in a template
+
+```bash
+<x-snack-alert-styles />
+```
+
 Send a Alert in a livewire component class
 
 ```bash
